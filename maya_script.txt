@@ -1,0 +1,10 @@
+from nb_autoRig_v3 import nb_autorig_v3_ui as rig_ui
+
+import imp
+imp.reload(rig_ui)
+
+try :
+    x.show()
+except:
+    x=rig_ui.NbAutorigV3UI()
+    x.show()
